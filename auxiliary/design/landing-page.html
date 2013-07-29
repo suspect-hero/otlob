@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Talabatak</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+    <link href="talabatak/stylesheets/landing-page.css" rel="stylesheet" type="text/css"/>
+    <link href="talabatak/stylesheets/colors.css" rel="stylesheet" type="text/css"/>
+    <link href="talabatak/stylesheets/colors.css" rel="stylesheet" type="text/css"/>
+
+    <script src="talabatak/javascripts/jquery/jquery-2.0.3.min.js" type="text/javascript"></script>
+    
+    <script src="jquery-ui-1.10.3/ui/minified/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.10.3/ui/minified/jquery.ui.core.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.10.3/ui/minified/jquery.ui.draggable.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.10.3/ui/minified/jquery.ui.droppable.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.10.3/ui/minified/jquery.ui.position.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.10.3/ui/minified/jquery.ui.dialog.min.js" type="text/javascript"></script>
+
+    <script src="talabatak/javascripts/landing-page.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="active-orders-container" class="row-fluid">
+      <div id="active-orders" class="span10 offset1 row-fluid" >
+        <div class="active-order span3 first-order">
+          <div class="first-row row-fluid">
+            <div class="order-toolbar">
+              <i class="icon-list" title="Show order details"></i>
+              <i class="icon-edit-sign" title="Edit order"></i>
+            </div>
+            <div class="restaurant-thumb">
+              <img src="talabatak/images/restaurant.png" />
+            </div>
+            <div class="restaurant-name">NOUR</div>
+            <div class="order-due-time">3:00pm</div>
+            <div class="order-remaining-minutes">35 <span>Mins<span></div>
+          </div>
+          <div class="order-participants row-fluid">
+            <span class="order-participant fore-stylish-red">M. Ali / </span>
+            <span class="order-participant">A. Adel / </span>
+            <span class="order-participant fore-stylish-blue">M. Khalid / </span>
+            <span class="order-participant">Khalid / </span>
+            <span class="order-participant">M. Ragab / </span>
+            <span class="order-participant">M. Bakr / </span>
+            <span class="order-participant">A. Moawad / </span>
+          </div>
+          <div class="food-samples row-fluid">
+            <span class="food-sample">Pizza / </span>
+            <span class="food-sample">Pie / </span>
+            <span class="food-sample">Negresko / </span>
+            <span class="food-sample">Sandwitchat / </span>
+          </div>
+          <div class="actions-container row-fluid">
+            <button class="btn btn-large btn-danger cancel-order" type="button">Cancel</button>
+            <button class="btn btn-large btn-success done-order" type="button">Done</button>
+          </div>
+        </div>
+        <div class="active-order span3">
+          <div class="first-row row-fluid">
+            <div class="order-toolbar">
+              <i class="icon-list" title="Show order details"></i>
+            </div>
+            <div class="restaurant-thumb">
+              <img src="talabatak/images/restaurant.png" />
+            </div>
+            <div class="restaurant-name">ABOU RABIE</div>
+            <div class="order-due-time">3:09pm</div>
+            <div class="order-remaining-minutes">21 <span>Mins<span></div>
+          </div>
+          <div class="order-participants row-fluid">
+            <span class="order-participant fore-stylish-red">M. Ali / </span>
+            <span class="order-participant">A. Adel / </span>
+            <span class="order-participant fore-stylish-blue">M. Khalid / </span>
+            <span class="order-participant">Khalid / </span>
+            <span class="order-participant">M. Ragab / </span>
+            <span class="order-participant">M. Bakr / </span>
+            <span class="order-participant">A. Moawad / </span>
+          </div>
+          <div class="food-samples row-fluid">
+            <span class="food-sample">Pizza / </span>
+            <span class="food-sample">Pie / </span>
+            <span class="food-sample">Negresko / </span>
+            <span class="food-sample">Sandwitchat / </span>
+          </div>
+          <div class="actions-container row-fluid">
+            <button class="btn btn-large btn-info join-order" type="button">Join</button>
+          </div>
+        </div>
+        <div class="active-order span3">
+          <div class="first-row row-fluid">
+            <div class="order-toolbar">
+              <i class="icon-list" title="Show order details"></i>
+            </div>
+            <div class="restaurant-thumb">
+              <img src="talabatak/images/restaurant.png" />
+            </div>
+            <div class="restaurant-name">ABOU KAMAL</div>
+            <div class="order-due-time">3:24pm</div>
+            <div class="order-remaining-minutes">6 <span>Mins<span></div>
+          </div>
+          <div class="order-participants row-fluid">
+            <span class="order-participant fore-stylish-red">M. Ali / </span>
+            <span class="order-participant">A. Adel / </span>
+            <span class="order-participant fore-stylish-blue">M. Khalid / </span>
+            <span class="order-participant">Khalid / </span>
+            <span class="order-participant">M. Ragab / </span>
+            <span class="order-participant">M. Bakr / </span>
+            <span class="order-participant">A. Moawad / </span>
+          </div>
+          <div class="food-samples row-fluid">
+            <span class="food-sample">Pizza / </span>
+            <span class="food-sample">Pie / </span>
+            <span class="food-sample">Negresko / </span>
+            <span class="food-sample">Sandwitchat / </span>
+          </div>
+          <div class="actions-container row-fluid">
+            <button class="btn btn-large btn-warning demit-order" type="button">Demit</button>
+          </div>
+        </div>
+        <div class="active-order span3 last-order">
+          <div class="first-row row-fluid">
+            <div class="order-toolbar">
+              <i class="icon-list" title="Show order details"></i>
+            </div>
+            <div class="restaurant-thumb">
+              <img src="talabatak/images/restaurant.png" />
+            </div>
+            <div class="restaurant-name">MC'DONALDS</div>
+            <div class="order-due-time">1:58pm</div>
+            <div class="order-remaining-minutes">122 <span>Mins<span></div>
+          </div>
+          <div class="order-participants row-fluid">
+            <span class="order-participant fore-stylish-red">M. Ali / </span>
+            <span class="order-participant">A. Adel / </span>
+            <span class="order-participant fore-stylish-blue">M. Khalid / </span>
+            <span class="order-participant">Khalid / </span>
+            <span class="order-participant">M. Ragab / </span>
+            <span class="order-participant">M. Bakr / </span>
+            <span class="order-participant">A. Moawad / </span>
+          </div>
+          <div class="food-samples row-fluid">
+            <span class="food-sample">Pizza / </span>
+            <span class="food-sample">Pie / </span>
+            <span class="food-sample">Negresko / </span>
+            <span class="food-sample">Sandwitchat / </span>
+          </div>
+          <div class="actions-container row-fluid">
+            <button class="btn btn-large btn-info join-order" type="button">Join</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="create-order-container" class="row-fluid">
+      <button class="btn btn-large btn-success span10 offset1">NEW ORDER</button>
+    </div>
+    <div id="create-order-details" class="row-fluid">
+      <div id="create-order-details-contents" class="row-fluid span10 offset1">
+        <div id="restaurants-list" class="row-fluid">
+          <div class="restaurant-thumb">
+            <img src="talabatak/images/restaurant.png" />
+          </div>
+          <div class="restaurant-thumb">
+            <img src="talabatak/images/restaurant.png" />
+          </div>
+          <div class="restaurant-thumb">
+            <img src="talabatak/images/restaurant.png" />
+          </div>
+          <div class="restaurant-thumb">
+            <img src="talabatak/images/restaurant.png" />
+          </div>
+          <div class="restaurant-thumb">
+            <img src="talabatak/images/restaurant.png" />
+          </div>
+          <div class="restaurant-thumb">
+            <img src="talabatak/images/restaurant.png" />
+          </div>
+          <div class="restaurant-thumb">
+            <img src="talabatak/images/restaurant.png" />
+          </div>
+          <div class="restaurant-thumb">
+            <img src="talabatak/images/restaurant.png" />
+          </div>
+        </div>   
+        <div id="items" class="row-fluid">
+          <div id="input" class="span4">
+            <div class="input-prepend input-append">
+              <input class="count span2" id="appended-input-count" type="text">
+              <input class="span8" id="appended-input-name" type="text">
+              <button class="btn" type="button"><i class="icon-chevron-sign-right "></i></button>
+            </div>
+            <div class="selected-items">
+              <div class="selected-item">
+                <i class="icon-minus-sign-alt selected-item-remove"></i>
+                <span class="selected-item-name">Foul</span>
+                <span class="selected-item-price">
+                  <span class="selected-item-unit-price">1.25</span> x 
+                  <span class="selected-item-count">3</span> =
+                  <span class="selected-item-total-count">3.75</span>
+                </span>
+              </div>
+              <div class="selected-item">
+                <i class="icon-minus-sign-alt selected-item-remove"></i>
+                <span class="selected-item-name">Foul</span>
+                <span class="selected-item-price">
+                  <span class="selected-item-unit-price">1.25</span> x 
+                  <span class="selected-item-count">3</span> =
+                  <span class="selected-item-total-count">3.75</span>
+                </span>
+              </div>
+              <div class="selected-item">
+                <i class="icon-minus-sign-alt selected-item-remove"></i>
+                <span class="selected-item-name">Foul</span>
+                <span class="selected-item-price">
+                  <span class="selected-item-unit-price">1.25</span> x 
+                  <span class="selected-item-count">3</span> =
+                  <span class="selected-item-total-count">3.75</span>
+                </span>
+              </div>
+              <div class="selected-item">
+                <i class="icon-minus-sign-alt selected-item-remove"></i>
+                <span class="selected-item-name">Foul</span>
+                <span class="selected-item-price">
+                  <span class="selected-item-unit-price">1.25</span> x 
+                  <span class="selected-item-count">3</span> =
+                  <span class="selected-item-total-count">3.75</span>
+                </span>
+              </div>
+              <div class="selected-item">
+                <i class="icon-minus-sign-alt selected-item-remove"></i>
+                <span class="selected-item-name">Foul</span>
+                <span class="selected-item-price">
+                  <span class="selected-item-unit-price">1.25</span> x 
+                  <span class="selected-item-count">3</span> =
+                  <span class="selected-item-total-count">3.75</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div id="menu" class="span8">
+            <div id="menu-title">Nour Menu</div>
+            <div id="menu-col-1" class="span5">
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Foul</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Falafel</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Batates</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Bayd</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Gebna Qarish</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Gebna Mesh Qarish</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Kabab</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">3asal Aswad</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+            </div>
+            <div id="menu-col-2" class="span5">
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Foul</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Falafel</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Batates</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Bayd</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Gebna Qarish</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Gebna Mesh Qarish</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">Kabab</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+              <div class="menu-item">
+                <i class="icon-plus-sign-alt menu-item-add"></i>
+                <span class="menu-item-name">3asal Aswad</span>
+                <span class="menu-item-price">1.25</span>
+              </div>
+            </div> 
+          </div> 
+        </div> 
+      </div>    
+    </div>
+  </body>
+</html>

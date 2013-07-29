@@ -1,0 +1,228 @@
+#active-orders {
+  height: 200px;
+  border: 1px solid #B3B3B2;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+#active-orders {
+  border-top-right-radius: 0px;
+}
+
+.active-order {
+  height: 200px;
+  position: relative;
+}
+
+.active-order.last-order {
+  border: none;
+}
+
+.first-row {
+  margin-bottom: 20px;
+}
+
+.first-order .restaurant-thumb img {
+  border-top-left-radius: 20px;
+}
+
+.last-order .order-toolbar i:last {
+  border-top-right-radius: 20px;
+}
+
+.restaurant-thumb {
+  display: inline;
+  float: left;
+  width: 48px;
+  height: 48px;
+}
+
+.order-toolbar {
+  display: inline;
+  float: right;
+  margin-top: -1px;
+  margin-right: 1px;
+  font-size: 14px;
+}
+
+.order-toolbar i {
+  cursor: pointer;
+}
+
+.restaurant-name {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.order-due-time {
+  display: inline-block;;
+}
+
+.order-remaining-minutes {
+  display: inline-block;
+  font-size: 30px;
+  border-left: 1px solid gray;
+  padding-left:5px;
+}
+
+.order-remaining-minutes span {
+  font-size: 15px;
+}
+
+.actions-container {
+  position: absolute;
+  bottom: 1px;
+}
+
+.actions-container button {
+  margin-left: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.actions-container button.cancel-order,
+.actions-container button.done-order {
+  width: 49%;
+}
+
+.actions-container button.cancel-order {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.actions-container button.done-order {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.actions-container button.demit-order,
+.actions-container button.join-order {
+  width: 100%;
+}
+
+.first-order .cancel-order,
+.first-order .join-order,
+.first-order .demit-order {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 0px;
+}
+
+.last-order .done-order,
+.last-order .join-order,
+.last-order .demit-order {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 0px;
+}
+
+.order-participants,
+.food-samples {
+  border-top: 1px dotted gray;
+}
+
+#create-order-container button {
+  margin-top: 20px;
+  height: 75px;
+  border-radius: 25px;
+  font-size: 35px;
+}
+
+#create-order-details {
+  margin-top: 20px;
+}
+
+#create-order-details-contents {
+  border-radius: 15px;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#restaurants-list .restaurant-thumb {
+  margin-right: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#restaurants-list .restaurant-thumb img {
+  border-radius: 15px;
+}
+
+#restaurants-list .restaurant-thumb:hover {
+  border: 1px solid gray;
+  width: 46px;
+  height: 46px;
+}
+
+#items {
+  margin-top: 10px;
+}
+
+#menu {
+  border-left: 1px solid gray;
+}
+
+#restaurants-list {
+  margin-right: 10px;
+}
+
+#menu-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.menu-item:hover{
+  background-color: #9BDE7E;
+}
+
+.selected-item:hover {
+  background-color: #81C6DD;
+}
+
+.menu-item,
+.selected-item {
+  height: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+.menu-item-name {
+  width: 65%;
+  float: left;
+}
+
+.selected-item-name {
+  width: 55%;
+  float: left; 
+}
+
+.menu-item-price{
+  float: right;
+  text-align: right;
+  width: 20%;
+}
+
+.selected-item-price {
+  float: right;
+  text-align: right;
+  width: 30%;
+}
+
+.menu-item-add:hover {
+  color: #22590B;
+}
+
+.selected-item-remove:hover {
+  color: #9E3B33;
+}
+
+.menu-item-add,
+.selected-item-remove {
+  float: left;
+  margin-top: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+}
